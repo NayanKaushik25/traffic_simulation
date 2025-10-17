@@ -101,7 +101,6 @@ def change_weights():
                 
 
 def bellman_ford(edges,start,end):
-    # collect nodes
     nodes = set()
     for u, v, w in edges:
         nodes.add(u)
